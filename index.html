@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Buscador de Imagens</title>
+    <link rel="icon" href="icon.png" type="image/png">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700&family=Cormorant+Garamond:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <h1>Buscador de Imagens</h1>
+        <form id="searchForm">
+            <div class="search-box">
+                <input type="text" id="searchInput" placeholder="Digite sua busca de imagens..." required>
+                <button type="submit">Buscar</button>
+            </div>
+            <div class="search-engines">
+                <h3>Selecione o buscador:</h3>
+                <div class="engine-options">
+                    <label>
+                        <input type="radio" name="engine" value="google" checked>
+                        <span class="engine-label">Google Imagens</span>
+                    </label>
+                    <label>
+                        <input type="radio" name="engine" value="bing">
+                        <span class="engine-label">Bing Imagens</span>
+                    </label>
+                    <label>
+                        <input type="radio" name="engine" value="yahoo">
+                        <span class="engine-label">Yahoo Imagens</span>
+                    </label>
+                    <label>
+                        <input type="radio" name="engine" value="yandex">
+                        <span class="engine-label">Yandex</span>
+                    </label>
+                    <label>
+                        <input type="radio" name="engine" value="pixabay">
+                        <span class="engine-label">Pixabay</span>
+                    </label>
+                    <label>
+                        <input type="radio" name="engine" value="pexels">
+                        <span class="engine-label">Pexels</span>
+                    </label>
+                    <label>
+                        <input type="radio" name="engine" value="unsplash">
+                        <span class="engine-label">Unsplash</span>
+                    </label>
+                    <label>
+                        <input type="radio" name="engine" value="freepik">
+                        <span class="engine-label">Freepik</span>
+                    </label>
+                    <label>
+                        <input type="radio" name="engine" value="pinterest">
+                        <span class="engine-label">Pinterest</span>
+                    </label>
+                </div>
+            </div>
+        </form>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
